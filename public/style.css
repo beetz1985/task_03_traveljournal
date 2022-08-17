@@ -1,0 +1,146 @@
+/* Inter Google Fonts 
+    Regular
+    Medium
+    Bold
+
+    Header Colour: #F55A5A;
+
+    10.24px = 0.64rem
+    25px = 1.5625rem
+
+
+
+*/
+
+html {
+    font-family: inter;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li {
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+/***************************/
+
+:root {
+    --regular-font-size: 0.64rem;
+    --medium-font-size: 0.90375rem;
+    --large-font-size: 1.5625rem;
+
+    --dark-text: #2B283A;
+    --grey-link-color: #918E9B;
+
+    --bold-typeface: 700;
+    --medium-typeface: 500;
+    --regular-typeface: 400;
+
+    --gutter-padding: 20px;
+}
+
+.wrapper {
+    margin: 50px auto;
+    max-width:550px;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.45);
+}
+
+.header {
+    color:#fff;
+    background-color: #F55A5A;
+    height:55px;
+}
+
+
+.header .logo-area {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.header .logo-area .logo-text {
+    letter-spacing: -0.075rem;
+    margin: 0 5px;
+}
+
+
+.main-content {
+    padding: 40px;
+}
+.card {
+    display:flex;
+    align-items: center;
+    color: var(--dark-text);
+    font-weight: var(--regular-typeface);
+    margin-bottom:40px;
+}
+
+
+
+.location-image {
+    flex: 0 0 126px;
+    height: 168px;
+}
+
+.location-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.location-row {
+    display:flex;
+    align-items: center;
+}
+
+
+.location-row img {
+    margin: 0 5px 0 0;
+}
+
+.location-row .location {
+    font-size: var(--regular-font-size);
+    text-transform: uppercase;
+    margin: 0 15px 0 0;
+}
+
+.card-text-area {
+    padding-left:var(--gutter-padding);
+}
+
+.card-text-area h1 {
+    font-size: var(--large-font-size);
+    font-weight: var(--bold-typeface);
+    margin: 5px 0 15px 0;
+}
+
+.card-text-area p {
+    font-size: var(--regular-font-size);
+    line-height: 1.5;
+}
+
+.g-maps-link {
+    font-size: var(--regular-font-size);
+    color:var(--grey-link-color);
+    text-decoration: underline;
+}
+
+.dates {
+    font-size: var(--regular-font-size);
+    font-weight: var(--bold-typeface);
+    margin: 8px 0;
+}
