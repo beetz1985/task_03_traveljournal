@@ -135,8 +135,11 @@ ul {
 
 .g-maps-link {
     font-size: var(--regular-font-size);
-    color:var(--grey-link-color);
     text-decoration: underline;
+}
+
+.g-maps-link a {
+    color:var(--grey-link-color);
 }
 
 .dates {

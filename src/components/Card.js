@@ -13,7 +13,7 @@ function Card(props) {
                 <div className="location-row">
                     <img src="/location_icon.png" alt="location icon"/>
                     <div className="location">{props.location}</div>
-                    <div className="g-maps-link">View On Google Maps</div>
+                    <div className="g-maps-link"><a href={props.googleMapsUrl}>View On Google Maps</a></div>
                 </div>
                 <h1>{props.title}</h1>
                 <div className="dates">{props.startDate} - {props.endDate}</div>
